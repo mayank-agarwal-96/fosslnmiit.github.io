@@ -218,7 +218,7 @@ padding-bottom: 1px;
 @media screen and (max-width: 1920px) {
 
 .speaker-1{
-	margin-left: 33% !important;
+	margin-left: 25% !important;
 }
 .social-icon{
 	margin-left: 80px;
@@ -232,7 +232,7 @@ padding-bottom: 1px;
 @media screen and (max-width: 1600px) {
 
 .speaker-1{
-	margin-left: 30% !important;
+	margin-left: 21% !important;
 }
 
 }
@@ -240,7 +240,7 @@ padding-bottom: 1px;
 @media screen and (max-width: 1366px) {
 
 .speaker-1{
-	margin-left: 25.5% !important;
+	margin-left: 13% !important;
 }
 .social-icon{
 	margin-left: 70px;
@@ -253,7 +253,7 @@ padding-bottom: 1px;
 @media screen and (max-width: 1280px) {
 
 .speaker-1{
-	margin-left: 25.5% !important;
+	margin-left: 13% !important;
 }
 
 .social-icon{
@@ -269,7 +269,7 @@ padding-bottom: 1px;
 @media screen and (max-width: 1024px) {
 
 .speaker-1{
-	margin-left: 20% !important;
+	margin-left: 4% !important;
 }
 
 .social-icon{
@@ -285,9 +285,10 @@ padding-bottom: 1px;
 
 @media screen and (max-width: 800px) {
 
-.speaker-1{
+.speaker-1,.speaker-3{
 	margin-left: 10% !important;
 }
+
 #map{
 	height: 600px;	
 }
@@ -302,7 +303,7 @@ padding-bottom: 1px;
 
 @media screen and (max-width: 750px) {
 
-.speaker-1{
+.speaker-1,.speaker-3{
 	margin-left: 2% !important;
 }
 
@@ -310,7 +311,7 @@ padding-bottom: 1px;
 
 @media screen and (max-width: 650px) {
 
-.speaker-1,.speaker-2{
+.speaker-1,.speaker-2,.speaker-3{
 	margin-left: 26% !important;
 }
 #map{
@@ -327,7 +328,7 @@ padding-bottom: 1px;
 
 @media screen and (max-width: 550px) {
 
-.speaker-1,.speaker-2{
+.speaker-1,.speaker-2,.speaker-3{
 	margin-left: 20% !important;
 }
 
@@ -339,7 +340,7 @@ padding-bottom: 1px;
 
 @media screen and (max-width: 450px) {
 
-.speaker-1,.speaker-2{
+.speaker-1,.speaker-2,.speaker-3{
 	margin-left: 14% !important;
 }
 
@@ -357,7 +358,7 @@ padding-bottom: 1px;
 }
 @media screen and (max-width: 400px) {
 
-.speaker-1,.speaker-2{
+.speaker-1,.speaker-2,.speaker-3{
 	margin-left: 10% !important;
 }
 
@@ -365,7 +366,7 @@ padding-bottom: 1px;
 
 @media screen and (max-width: 360px) {
 
-.speaker-1,.speaker-2{
+.speaker-1,.speaker-2,.speaker-3{
 	margin-left: 5% !important;
 }
 
