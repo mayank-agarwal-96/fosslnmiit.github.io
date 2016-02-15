@@ -23,6 +23,64 @@ body{
 	/*border: 1px solid;*/
 }
 
+#modal1{
+	top: 5% !important;
+	width: 90%;
+	height: 90% !important;
+	max-height: 90% !important;
+}
+
+/*Speaker Profie*/
+
+.span-card{
+	width: 260px;
+	height: 320px;
+	/*border: 1px solid;*/
+	/*float: left;*/
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+
+.name-text-head{
+	font-size: 19px !important;
+	font-weight: 400 !important;
+	position: relative;
+	/*top: -74px;*/
+	/*text-align: center ;*/
+}
+
+.name-text-pos{
+	font-size: 14px !important;
+	position: relative;
+	/*top: -80px;	*/
+	/*text-align: center;*/
+	font-weight: 400;
+	font-style: bold;
+}
+
+.name-text-topic{
+	font-size: 14px !important;
+	position: relative;
+	/*top: -80px;	*/
+	/*text-align: center;*/
+	font-weight: 400;
+	font-style: bold;
+}
+
+.team-card{
+	float: left;
+	/*border: 1px solid red;*/
+	width: 250px;
+	margin-left: 30px;
+	margin-bottom: 40px;
+}
+
+.team-4{
+	margin-right: 200px;
+}
+
+/*Speaker Profile ends here*/
+
 .nav-wrapper{
 	font-family: roboto-light;
 	background-color: #2196F3;
@@ -218,7 +276,7 @@ padding-bottom: 1px;
 @media screen and (max-width: 1920px) {
 
 .speaker-1{
-	margin-left: 25% !important;
+	margin-left: 21% !important;
 }
 .social-icon{
 	margin-left: 80px;
@@ -227,12 +285,26 @@ padding-bottom: 1px;
 	margin-left: 55px;
 }
 
+.team-card{
+	margin-bottom: 50px;
+}
+.team-1{
+	margin-left: 18%;
+}
+.team-4{
+	margin-right: 0px;
+}
+
 }
 
 @media screen and (max-width: 1600px) {
 
 .speaker-1{
-	margin-left: 21% !important;
+	margin-left: 15% !important;
+}
+
+.team-1{
+	margin-left: 11.5%;
 }
 
 }
@@ -240,7 +312,10 @@ padding-bottom: 1px;
 @media screen and (max-width: 1366px) {
 
 .speaker-1{
-	margin-left: 13% !important;
+	margin-left: 7% !important;
+}
+.team-1{
+	margin-left: 1%;
 }
 .social-icon{
 	margin-left: 70px;
@@ -253,7 +328,11 @@ padding-bottom: 1px;
 @media screen and (max-width: 1280px) {
 
 .speaker-1{
-	margin-left: 13% !important;
+	margin-left: 6% !important;
+}
+
+.team-1{
+	margin-left: 1%;
 }
 
 .social-icon{
@@ -268,8 +347,12 @@ padding-bottom: 1px;
 
 @media screen and (max-width: 1024px) {
 
-.speaker-1{
-	margin-left: 4% !important;
+.speaker-1,.speaker-3{
+	margin-left: 21% !important;
+}
+
+.team-1{
+	margin-left: 4%;
 }
 
 .social-icon{
@@ -286,7 +369,11 @@ padding-bottom: 1px;
 @media screen and (max-width: 800px) {
 
 .speaker-1,.speaker-3{
-	margin-left: 10% !important;
+	margin-left: 15% !important;
+}
+
+.team-1,.team-3{
+	margin-left: 13%;
 }
 
 #map{
@@ -304,16 +391,25 @@ padding-bottom: 1px;
 @media screen and (max-width: 750px) {
 
 .speaker-1,.speaker-3{
-	margin-left: 2% !important;
+	margin-left: 12% !important;
+}
+
+.team-1,.team-3{
+	margin-left: 9%;
 }
 
 }
 
 @media screen and (max-width: 650px) {
 
-.speaker-1,.speaker-2,.speaker-3{
-	margin-left: 26% !important;
+.speaker-1,.speaker-2,.speaker-3,.speaker-4{
+	margin-left: 28% !important;
 }
+
+.team-1,.team-2,.team-3,.team-4{
+	margin-left: 26%;
+}
+
 #map{
 	height: 500px;	
 }
@@ -328,8 +424,12 @@ padding-bottom: 1px;
 
 @media screen and (max-width: 550px) {
 
-.speaker-1,.speaker-2,.speaker-3{
-	margin-left: 20% !important;
+.speaker-1,.speaker-2,.speaker-3,.speaker-4{
+	margin-left: 23.5% !important;
+}
+
+.team-1,.team-2,.team-3,.team-4{
+	margin-left: 23%;
 }
 
 .head-1{
@@ -340,8 +440,12 @@ padding-bottom: 1px;
 
 @media screen and (max-width: 450px) {
 
-.speaker-1,.speaker-2,.speaker-3{
-	margin-left: 14% !important;
+.speaker-1,.speaker-2,.speaker-3,.speaker-4{
+	margin-left: 18% !important;
+}
+
+.team-1,.team-2,.team-3,.team-4{
+	margin-left: 16%;
 }
 
 #map{
@@ -358,16 +462,21 @@ padding-bottom: 1px;
 }
 @media screen and (max-width: 400px) {
 
-.speaker-1,.speaker-2,.speaker-3{
-	margin-left: 10% !important;
+.speaker-1,.speaker-2,.speaker-3,.speaker-4{
+	margin-left: 13% !important;
 }
+
+.team-1,.team-2,.team-3,.team-4{
+	margin-left: 11%;
+}
+
 
 }
 
 @media screen and (max-width: 360px) {
 
-.speaker-1,.speaker-2,.speaker-3{
-	margin-left: 5% !important;
+.speaker-1,.speaker-2,.speaker-3,.speaker-4{
+	margin-left: 8% !important;
 }
 
 .head-1{
