@@ -1,5 +1,6 @@
 $(".button-collapse").sideNav();
 $('.modal-trigger').leanModal();
+$('ul.tabs').tabs();
 
 $('.homex').click(function(){
     $('html, body').animate({

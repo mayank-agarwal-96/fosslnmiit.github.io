@@ -29,7 +29,107 @@ body{
 	height: 90% !important;
 	max-height: 90% !important;
 }
+#modal2{
+	top: 0% !important;
+	width: 100%;
+	height: 100% !important;
+	max-height: 100% !important;
+}
 
+/*back button modal 2*/
+
+.backBTN{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	border: 4px solid white;
+	color: white;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	padding:5px;
+}
+
+.backBTN .material-icons{
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    font-size: 34px; 
+}
+
+.modalClassyBG{
+	background-color: #2196F3;
+	width: 100%;
+	height: 240px;
+}
+
+.modalClassyContainer{
+	width: 80%;
+	margin-left: 10%;
+	position: relative;
+	top: -212px;
+}
+
+.modalClassyContainer h3{
+	font-weight: 300;
+	color: white;
+	text-shadow: 1px 1px #BDB2B2;
+}
+
+.modalClassytab{
+	width: 12% !important;
+	margin-left: 0px !important;
+}
+
+.modalClassytab li{
+	text-align: left !important;
+}
+
+.modalClassytabcol{
+	padding-left: 0px !important;
+}
+
+.tabs .indicator {
+ 	background-color: white;
+ }
+
+ .tabs .tab a {
+	color: white;
+	background-color: #2196F3;
+ 	/*width: 40px;*/
+ }
+
+ .tabs .tab a:hover {
+  color: white;
+ }
+
+/* Schedule */
+
+.modalClassyDate{
+	font-weight: 300;
+    margin-top: 40px !important;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.modalClassyIcon{
+	position: relative;
+    top: 7px;
+    font-size: 25px;
+}
+
+.modalClassyTime{
+	color: grey;
+	margin: 40px;
+}
+
+.modalClassyTime1{
+	color: grey;
+	margin:20px 40px 20px 10px; 
+}
+.someclass{
+	margin-bottom:20px; 
+}
 /*Speaker Profie*/
 
 .span-card{
