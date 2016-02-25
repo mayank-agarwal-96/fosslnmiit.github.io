@@ -1,1 +1,1 @@
-# lnmiit-foss.github.io
+# fosslnmiit.github.io
