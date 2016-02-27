@@ -312,10 +312,25 @@ section.module.parallax h1 {
     margin-left: 0px;
 }
 
-#map{
+#locationx{
+	height: 600px;
 	background-color: #2196F3;
-	height: 700px;
+	color: white;
 }
+
+#map{
+	height: 600px;
+	width: 60%;
+	float: left;
+}
+
+#howToReach{
+	width: 40%;
+	margin-top: 8%;
+	float: right;
+}
+
+
 
 footer.page-footer{
 background-color: #2196F3;
@@ -394,6 +409,9 @@ padding-bottom: 1px;
 .team-4{
 	margin-right: 0px;
 }
+.howToReachx{
+	margin-left: 20%;
+}
 
 }
 
@@ -407,6 +425,9 @@ padding-bottom: 1px;
 	margin-left: 11.5%;
 }
 
+.howToReachx{
+	margin-left: 20%;
+}
 }
 
 @media screen and (max-width: 1366px) {
@@ -462,6 +483,18 @@ padding-bottom: 1px;
 	margin-left: 25px;
 }
 
+#locationx{
+	height: 500px;
+}
+
+#map{
+	height: 500px;
+	width: 60%;
+}
+#howToReach{
+	margin-top: 4%;
+}
+
 }
 
 
@@ -477,8 +510,25 @@ padding-bottom: 1px;
 }
 
 #map{
-	height: 600px;	
+	height: 500px;	
+	width: 100%;
 }
+
+#locationx{
+	height: 1000px;
+}
+
+#howToReach{
+	margin-top: 8%;
+	float: none;
+	/*margin-left: 5%;*/
+	width: 90%;
+}
+
+.howToReachx{
+	width: 90%;
+}
+
 .social-icon{
 	margin-left: 28%;
 }
@@ -513,6 +563,16 @@ padding-bottom: 1px;
 #map{
 	height: 500px;	
 }
+
+#locationx{
+	height: 850px;
+}
+
+#howToReach{
+	margin-left: 2%;
+}
+
+
 .social-icon{
 	margin-left: 22%;
 }
@@ -536,6 +596,20 @@ padding-bottom: 1px;
 	font-size: 60px !important;
 }
 
+
+#map{
+	height: 500px;	
+}
+
+#locationx{
+	height: 850px;
+}
+
+#howToReach{
+	margin-left: -2%;
+}
+
+
 }
 
 @media screen and (max-width: 450px) {
@@ -550,6 +624,14 @@ padding-bottom: 1px;
 
 #map{
 	height: 400px;	
+}
+
+#locationx{
+	height: 750px;
+}
+
+#howToReach{
+	/*margin-left: -14%;*/
 }
 
 .social-icon{
@@ -570,6 +652,20 @@ padding-bottom: 1px;
 	margin-left: 11%;
 }
 
+#locationx{
+	height: 800px;
+}
+
+#howToReach{
+	/*margin-left: -14%;*/
+}
+
+.social-icon{
+	margin-left: 12%;
+}
+.contact-1{
+	margin-left: 12%;
+}
 
 }
 
